@@ -1,6 +1,10 @@
 # Portfólio — Gabriel Oliveira
 
-Site pessoal de página única com áreas pessoal, acadêmica e profissional. Construído com Vite, React e TypeScript, preparado para publicação no GitHub Pages.
+Site pessoal de página única com áreas pessoal, acadêmica e profissional. Construído com Vite, React e TypeScript e publicado no GitHub Pages.
+
+## Acesso online
+
+[Acessar portfólio](https://fatec-sjc-dsm-portfolio.github.io/ra1461392411024/)
 
 ## Executar localmente
 
@@ -16,4 +20,4 @@ npm run typecheck
 npm run build
 ```
 
-Os arquivos prontos para hospedagem são gerados em `dist/`. O caminho base `/ra1461392411024/` e o workflow em `.github/workflows/deploy.yml` estão preparados para publicação futura no GitHub Pages.
+Os arquivos prontos para hospedagem são gerados em `dist/`. O caminho base `/ra1461392411024/` e o workflow em `.github/workflows/deploy.yml` são usados na publicação pelo GitHub Pages.
