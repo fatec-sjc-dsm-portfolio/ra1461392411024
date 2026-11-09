@@ -7,6 +7,7 @@ export interface Project {
   challenge: string
   solution: string
   contribution: string
+  softSkills: string
   stack: string[]
   url: string
   monogram: string
@@ -22,7 +23,8 @@ export const projects: Project[] = [
     summary: 'Uma estufa inteligente precisava de uma forma mais simples de registrar e acompanhar os dados coletados pelos sensores.',
     challenge: 'O acompanhamento era feito com arquivos CSV, cartões microSD e planilhas, o que dificultava a consulta remota e a análise histórica dos dados.',
     solution: 'A equipe desenvolveu uma aplicação para organizar registros de sensores e checklists e apresentar a evolução da estufa em tabelas e gráficos interativos.',
-    contribution: 'Contribuí para a experiência da aplicação desde o design: participei das decisões de UI/UX, implementei as telas e trabalhei na comunicação do frontend com a API para conectar as interfaces aos dados da estufa.',
+    contribution: 'Participei do desenvolvimento da solução, criando parte dos layouts das telas no Figma e implementando as interfaces no frontend. Também trabalhei na comunicação do frontend com a API para conectar as telas aos dados da estufa.',
+    softSkills: 'Desenvolvi o trabalho em equipe, aprendi a me adaptar à metodologia Scrum e colaborei com o grupo na organização e no acompanhamento das tarefas do projeto.',
     stack: ['Python', 'Flask', 'MySQL', 'JavaScript', 'Tailwind CSS', 'ApexCharts', 'Docker'],
     url: 'https://github.com/CtrI-Alt-Del/smart-farming',
     monogram: 'SF',
@@ -36,7 +38,8 @@ export const projects: Project[] = [
     summary: 'Uma aplicação para simplificar o controle de produtos, quantidades e informações de estoque.',
     challenge: 'Manter o inventário organizado exige acompanhar produtos e atualizações sem perder consistência entre as operações do sistema.',
     solution: 'O projeto reuniu recursos de gestão de estoque em uma aplicação web, com operações de backend para manter os dados e apoiar o fluxo de uso.',
-    contribution: 'Minha atuação foi principalmente no backend, onde desenvolvi a API que dá suporte aos fluxos do sistema de estoque. Também participei do design da aplicação, colaborando para que a experiência visual acompanhasse as necessidades de gestão.',
+    contribution: 'Fui responsável pelo desenvolvimento da API do projeto, incluindo rotas, casos de uso, controllers e testes unitários. Também colaborei no design das telas da aplicação.',
+    softSkills: 'Aprimorei a colaboração no desenvolvimento de código em grupo, a revisão de pull requests e o alinhamento com a equipe durante o projeto.',
     stack: ['React', 'TypeScript', 'Next.js', 'Prisma', 'Supabase'],
     url: 'https://github.com/CtrI-Alt-Del/stocker',
     monogram: 'ST',
@@ -50,7 +53,8 @@ export const projects: Project[] = [
     summary: 'Uma ferramenta para equipes registrarem horas, organizarem tarefas e consultarem relatórios de trabalho.',
     challenge: 'Acompanhar o tempo dedicado às atividades e consolidar informações em relatórios pede um fluxo claro para toda a equipe.',
     solution: 'A equipe criou uma plataforma de controle de tempo para registrar horas e tarefas e reunir os dados em relatórios.',
-    contribution: 'Atuei principalmente como Scrum Master, apoiando a organização do trabalho e o acompanhamento das entregas da equipe. Também colaborei no design das interfaces e no desenvolvimento do frontend.',
+    contribution: 'Atuei como Scrum Master, acompanhando os integrantes durante o desenvolvimento e conduzindo reuniões com o grupo. Também desenvolvi telas no Figma e no código do frontend.',
+    softSkills: 'Na minha primeira experiência como Scrum Master, aprendi a lidar com o grupo e a gerenciar o desenvolvimento do projeto. Também desenvolvi a comunicação e a colaboração por meio da documentação e da revisão de pull requests.',
     stack: ['React', 'TypeScript', 'Next.js', 'Java', 'Spring Boot', 'MongoDB'],
     url: 'https://github.com/CtrI-Alt-Del/chronos',
     monogram: 'CH',

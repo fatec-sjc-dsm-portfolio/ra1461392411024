@@ -23,10 +23,11 @@ export function ProjectCard({ project }: ProjectCardProps) {
         <div className="detail-copy">
           <div><Label>O DESAFIO</Label><p>{project.challenge}</p></div>
           <div><Label>A SOLUÇÃO</Label><p>{project.solution}</p></div>
-          <div><Label>MINHA CONTRIBUIÇÃO</Label><p>{project.contribution}</p></div>
+          <div className="detail-contribution"><Label>MINHA CONTRIBUIÇÃO</Label><p>{project.contribution}</p></div>
+          <div className="detail-soft-skills"><Label>SOFT SKILLS</Label><p>{project.softSkills}</p></div>
         </div>
         <div className="detail-side">
-          <Label>TECNOLOGIAS</Label>
+          <Label>HARD SKILLS · TECNOLOGIAS</Label>
           <div className="tag-list">{project.stack.map((technology) => <span className="tech-tag" key={technology}>{technology}</span>)}</div>
           <a className="repo-link" href={project.url} target="_blank" rel="noreferrer">Ver repositório <Icon name="external" size={15} /></a>
         </div>

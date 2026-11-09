@@ -111,7 +111,7 @@ h1 i { color: var(--copper); font-style: normal; }
 .project-card[open] .project-open { transform: rotate(90deg); background: var(--copper); color: var(--bg); }
 .project-detail { display: grid; grid-template-columns: 1.5fr .5fr; gap: 9%; margin: 0 88px 29px 159px; padding: 25px 0 0; border-top: 1px solid var(--line); }
 .detail-copy { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px 34px; }
-.detail-copy > div:last-child { grid-column: 1 / -1; }
+.detail-contribution, .detail-soft-skills { grid-column: 1 / -1; }
 .detail-copy p { margin: 8px 0 0; color: #c0bbaf; font-size: 13px; line-height: 1.75; }
 .detail-side { display: flex; flex-direction: column; align-items: flex-start; gap: 15px; }
 .tag-list { display: flex; flex-wrap: wrap; gap: 7px; }
@@ -235,7 +235,7 @@ h1 i { color: var(--copper); font-style: normal; }
   .project-open svg { width: 14px; height: 14px; }
   .project-detail { grid-template-columns: 1fr; gap: 22px; margin: 0 9px 22px 78px; padding-top: 18px; }
   .detail-copy { grid-template-columns: 1fr; gap: 16px; }
-  .detail-copy > div:last-child { grid-column: auto; }
+  .detail-contribution, .detail-soft-skills { grid-column: auto; }
   .detail-copy p { font-size: 12px; }
   .detail-side { gap: 12px; }
   .technical-course { align-items: flex-start; gap: 11px; padding: 15px 12px; }
