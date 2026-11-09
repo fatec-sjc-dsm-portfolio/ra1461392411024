@@ -1,0 +1,19 @@
+# Portfólio — Gabriel Oliveira
+
+Site pessoal de página única com áreas pessoal, acadêmica e profissional. Construído com Vite, React e TypeScript, preparado para publicação no GitHub Pages.
+
+## Executar localmente
+
+```bash
+npm install
+npm run dev
+```
+
+## Verificar e gerar a versão de produção
+
+```bash
+npm run typecheck
+npm run build
+```
+
+Os arquivos prontos para hospedagem são gerados em `dist/`. O caminho base `/ra1461392411024/` e o workflow em `.github/workflows/deploy.yml` estão preparados para publicação futura no GitHub Pages.
