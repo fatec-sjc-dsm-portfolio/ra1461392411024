@@ -1,0 +1,20 @@
+:root {
+  font-family: 'Aptos', 'Segoe UI Variable', 'Segoe UI', sans-serif;
+  color: #e9e5dc;
+  background: #171714;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  --bg: #171714;
+  --bg-soft: #1d1d19;
+  --panel: #20201c;
+  --panel-hi: #25251f;
+  --line: rgba(229, 220, 198, .13);
+  --line-strong: rgba(229, 220, 198, .24);
+  --text: #e9e5dc;
+  --muted: #a49f93;
+  --faint: #777468;
+  --copper: #d99a65;
+  --copper-light: #efb27a;
+  --mono: 'Cascadia Code', 'Consolas', monospace;
+  --display: 'Aptos Display', 'Segoe UI Variable Display', 'Segoe UI', sans-serif;
+}

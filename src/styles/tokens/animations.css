@@ -1,0 +1,14 @@
+@keyframes orbit-clockwise {
+  from { transform: rotate(-32deg) scaleY(.66); }
+  to { transform: rotate(328deg) scaleY(.66); }
+}
+
+@keyframes orbit-counterclockwise {
+  from { transform: rotate(55deg) scaleY(.75); }
+  to { transform: rotate(-305deg) scaleY(.75); }
+}
+
+@keyframes grid-drift {
+  from { transform: rotate(45deg); }
+  to { transform: rotate(405deg); }
+}
